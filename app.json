@@ -1,0 +1,18 @@
+{
+    "name": "V",
+    "description": "Deploy V on H.",
+    "keywords": ["V"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "132c7d30-4a30-11ec-81d3-0242ac130003"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
+    "stack": "container"
+}
