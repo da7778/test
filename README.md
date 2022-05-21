@@ -1,6 +1,6 @@
 # V H
 
-**若需部署 VL，请转到 [vless](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
+**若需部署 VL，请转到 [vl](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
 
 ## 概述
 
