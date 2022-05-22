@@ -6,7 +6,7 @@ DIR_RUNTIME="/usr/bin"
 DIR_TMP="$(mktemp -d)"
 
 # Write fq configuration
-cat << EOF > ${DIR_TMP}/hk.json
+cat << EOF > ${DIR_TMP}/heroku.json
 {
     "inbounds": [{
         "port": ${PORT},
@@ -36,7 +36,7 @@ busybox unzip ${DIR_TMP}/fq_dist.zip -d ${DIR_TMP}
 
 # Convert to protobuf format configuration
 mkdir -p ${DIR_CONFIG}
-${DIR_TMP}/ctl config ${DIR_TMP}/hk.json > ${DIR_CONFIG}/config.pb
+${DIR_TMP}/ctl config ${DIR_TMP}/heroku.json > ${DIR_CONFIG}/config.pb
 
 # Install fq
 install -m 755 ${DIR_TMP}/fq ${DIR_RUNTIME}
