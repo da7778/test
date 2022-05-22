@@ -1,6 +1,6 @@
 # V H
 
-**若需部署 VL，请转到 [vl](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
+**若需部署 VL，请转到 [vl]() 分支。**
 
 ## 概述
 
@@ -29,15 +29,3 @@
 | `ID` | `3fff42ca-cdf5-4a69-8d88-6217720cc065` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
-## 接入 CloudFlare
-
-以下两种方式均可以将应用接入 CloudFlare，从而在一定程度上提升速度。
-
- 1. 为应用绑定域名，并将该域名接入 CloudFlare
- 2. 通过 CloudFlare Workers 反向代理
-
-## 注意
-
- 1. **请勿滥用本专案，类似 Heroku 的免费服务少之又少，且用且珍惜**
- 2. 若使用域名接入 CloudFlare，请考虑启用 TLS 1.3
- 3. AWS 绝大部分 IPv4 地址已被 Twitter 屏蔽
